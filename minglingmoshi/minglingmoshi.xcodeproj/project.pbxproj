@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1B7EBB1EDE493600917460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EBA1EDE493600917460 /* main.m */; };
+		2B1B7EBE1EDE493700917460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EBD1EDE493700917460 /* AppDelegate.m */; };
+		2B1B7EC11EDE493700917460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EC01EDE493700917460 /* ViewController.m */; };
+		2B1B7EC41EDE493700917460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B7EC21EDE493700917460 /* Main.storyboard */; };
+		2B1B7EC71EDE493700917460 /* minglingmoshi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EC51EDE493700917460 /* minglingmoshi.xcdatamodeld */; };
+		2B1B7EC91EDE493700917460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B7EC81EDE493700917460 /* Assets.xcassets */; };
+		2B1B7ECC1EDE493700917460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1B7ECA1EDE493700917460 /* LaunchScreen.storyboard */; };
+		2B1B7ED71EDE493700917460 /* minglingmoshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7ED61EDE493700917460 /* minglingmoshiTests.m */; };
+		2B1B7EE21EDE493700917460 /* minglingmoshiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EE11EDE493700917460 /* minglingmoshiUITests.m */; };
+		2B1B7EF21EDE4A4200917460 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EF11EDE4A4200917460 /* Light.m */; };
+		2B1B7EF51EDE4ABE00917460 /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EF41EDE4ABE00917460 /* LightOnCommand.m */; };
+		2B1B7EF81EDE4D4D00917460 /* SimpleRomoteCotrol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EF71EDE4D4D00917460 /* SimpleRomoteCotrol.m */; };
+		2B1B7EFB1EDE4DDC00917460 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EFA1EDE4DDC00917460 /* Command.m */; };
+		2B1B7EFE1EDE525B00917460 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7EFD1EDE525B00917460 /* RemoteControl.m */; };
+		2B1B7F011EDE53AB00917460 /* NoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7F001EDE53AB00917460 /* NoCommand.m */; };
+		2B1B7F051EDE57CE00917460 /* LightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7F041EDE57CE00917460 /* LightOffCommand.m */; };
+		2B1B7F091EDE589300917460 /* Stereo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7F081EDE589300917460 /* Stereo.m */; };
+		2B1B7F0C1EDE59F100917460 /* StereoOnWIthCDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7F0B1EDE59F100917460 /* StereoOnWIthCDCommand.m */; };
+		2B1B7F0F1EDE5A1500917460 /* StereoOffWithCDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B7F0E1EDE5A1500917460 /* StereoOffWithCDCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B1B7ED31EDE493700917460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B1B7EAE1EDE493600917460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1B7EB51EDE493600917460;
+			remoteInfo = minglingmoshi;
+		};
+		2B1B7EDE1EDE493700917460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B1B7EAE1EDE493600917460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B1B7EB51EDE493600917460;
+			remoteInfo = minglingmoshi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1B7EB61EDE493600917460 /* minglingmoshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minglingmoshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1B7EBA1EDE493600917460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B1B7EBC1EDE493600917460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B1B7EBD1EDE493700917460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B1B7EBF1EDE493700917460 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B1B7EC01EDE493700917460 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B1B7EC31EDE493700917460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B1B7EC61EDE493700917460 /* minglingmoshi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = minglingmoshi.xcdatamodel; sourceTree = "<group>"; };
+		2B1B7EC81EDE493700917460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B1B7ECB1EDE493700917460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B1B7ECD1EDE493700917460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1B7ED21EDE493700917460 /* minglingmoshiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minglingmoshiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1B7ED61EDE493700917460 /* minglingmoshiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = minglingmoshiTests.m; sourceTree = "<group>"; };
+		2B1B7ED81EDE493700917460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1B7EDD1EDE493700917460 /* minglingmoshiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minglingmoshiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1B7EE11EDE493700917460 /* minglingmoshiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = minglingmoshiUITests.m; sourceTree = "<group>"; };
+		2B1B7EE31EDE493700917460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1B7EF01EDE4A4200917460 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		2B1B7EF11EDE4A4200917460 /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		2B1B7EF31EDE4ABE00917460 /* LightOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		2B1B7EF41EDE4ABE00917460 /* LightOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		2B1B7EF61EDE4D4D00917460 /* SimpleRomoteCotrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRomoteCotrol.h; sourceTree = "<group>"; };
+		2B1B7EF71EDE4D4D00917460 /* SimpleRomoteCotrol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRomoteCotrol.m; sourceTree = "<group>"; };
+		2B1B7EF91EDE4DDC00917460 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		2B1B7EFA1EDE4DDC00917460 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		2B1B7EFC1EDE525B00917460 /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteControl.h; path = ../RemoteControl.h; sourceTree = "<group>"; };
+		2B1B7EFD1EDE525B00917460 /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteControl.m; path = ../RemoteControl.m; sourceTree = "<group>"; };
+		2B1B7EFF1EDE53AB00917460 /* NoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoCommand.h; sourceTree = "<group>"; };
+		2B1B7F001EDE53AB00917460 /* NoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoCommand.m; sourceTree = "<group>"; };
+		2B1B7F031EDE57CE00917460 /* LightOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOffCommand.h; sourceTree = "<group>"; };
+		2B1B7F041EDE57CE00917460 /* LightOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOffCommand.m; sourceTree = "<group>"; };
+		2B1B7F071EDE589300917460 /* Stereo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stereo.h; sourceTree = "<group>"; };
+		2B1B7F081EDE589300917460 /* Stereo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stereo.m; sourceTree = "<group>"; };
+		2B1B7F0A1EDE59F100917460 /* StereoOnWIthCDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoOnWIthCDCommand.h; sourceTree = "<group>"; };
+		2B1B7F0B1EDE59F100917460 /* StereoOnWIthCDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StereoOnWIthCDCommand.m; sourceTree = "<group>"; };
+		2B1B7F0D1EDE5A1500917460 /* StereoOffWithCDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoOffWithCDCommand.h; sourceTree = "<group>"; };
+		2B1B7F0E1EDE5A1500917460 /* StereoOffWithCDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StereoOffWithCDCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B1B7EB31EDE493600917460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1B7ECF1EDE493700917460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1B7EDA1EDE493700917460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1B7EAD1EDE493600917460 = {
+			isa = PBXGroup;
+			children = (
+				2B1B7EB81EDE493600917460 /* minglingmoshi */,
+				2B1B7ED51EDE493700917460 /* minglingmoshiTests */,
+				2B1B7EE01EDE493700917460 /* minglingmoshiUITests */,
+				2B1B7EB71EDE493600917460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B1B7EB71EDE493600917460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B1B7EB61EDE493600917460 /* minglingmoshi.app */,
+				2B1B7ED21EDE493700917460 /* minglingmoshiTests.xctest */,
+				2B1B7EDD1EDE493700917460 /* minglingmoshiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B1B7EB81EDE493600917460 /* minglingmoshi */ = {
+			isa = PBXGroup;
+			children = (
+				2B1B7F061EDE587500917460 /* Stereo */,
+				2B1B7F021EDE57B100917460 /* Light */,
+				2B1B7EBC1EDE493600917460 /* AppDelegate.h */,
+				2B1B7EBD1EDE493700917460 /* AppDelegate.m */,
+				2B1B7EBF1EDE493700917460 /* ViewController.h */,
+				2B1B7EC01EDE493700917460 /* ViewController.m */,
+				2B1B7EC21EDE493700917460 /* Main.storyboard */,
+				2B1B7EC81EDE493700917460 /* Assets.xcassets */,
+				2B1B7ECA1EDE493700917460 /* LaunchScreen.storyboard */,
+				2B1B7ECD1EDE493700917460 /* Info.plist */,
+				2B1B7EC51EDE493700917460 /* minglingmoshi.xcdatamodeld */,
+				2B1B7EB91EDE493600917460 /* Supporting Files */,
+				2B1B7EFC1EDE525B00917460 /* RemoteControl.h */,
+				2B1B7EFD1EDE525B00917460 /* RemoteControl.m */,
+				2B1B7EF61EDE4D4D00917460 /* SimpleRomoteCotrol.h */,
+				2B1B7EF71EDE4D4D00917460 /* SimpleRomoteCotrol.m */,
+				2B1B7EF91EDE4DDC00917460 /* Command.h */,
+				2B1B7EFA1EDE4DDC00917460 /* Command.m */,
+				2B1B7EFF1EDE53AB00917460 /* NoCommand.h */,
+				2B1B7F001EDE53AB00917460 /* NoCommand.m */,
+			);
+			path = minglingmoshi;
+			sourceTree = "<group>";
+		};
+		2B1B7EB91EDE493600917460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B1B7EBA1EDE493600917460 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B1B7ED51EDE493700917460 /* minglingmoshiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B1B7ED61EDE493700917460 /* minglingmoshiTests.m */,
+				2B1B7ED81EDE493700917460 /* Info.plist */,
+			);
+			path = minglingmoshiTests;
+			sourceTree = "<group>";
+		};
+		2B1B7EE01EDE493700917460 /* minglingmoshiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B1B7EE11EDE493700917460 /* minglingmoshiUITests.m */,
+				2B1B7EE31EDE493700917460 /* Info.plist */,
+			);
+			path = minglingmoshiUITests;
+			sourceTree = "<group>";
+		};
+		2B1B7F021EDE57B100917460 /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				2B1B7EF01EDE4A4200917460 /* Light.h */,
+				2B1B7EF11EDE4A4200917460 /* Light.m */,
+				2B1B7EF31EDE4ABE00917460 /* LightOnCommand.h */,
+				2B1B7EF41EDE4ABE00917460 /* LightOnCommand.m */,
+				2B1B7F031EDE57CE00917460 /* LightOffCommand.h */,
+				2B1B7F041EDE57CE00917460 /* LightOffCommand.m */,
+			);
+			name = Light;
+			sourceTree = "<group>";
+		};
+		2B1B7F061EDE587500917460 /* Stereo */ = {
+			isa = PBXGroup;
+			children = (
+				2B1B7F071EDE589300917460 /* Stereo.h */,
+				2B1B7F081EDE589300917460 /* Stereo.m */,
+				2B1B7F0A1EDE59F100917460 /* StereoOnWIthCDCommand.h */,
+				2B1B7F0B1EDE59F100917460 /* StereoOnWIthCDCommand.m */,
+				2B1B7F0D1EDE5A1500917460 /* StereoOffWithCDCommand.h */,
+				2B1B7F0E1EDE5A1500917460 /* StereoOffWithCDCommand.m */,
+			);
+			name = Stereo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B1B7EB51EDE493600917460 /* minglingmoshi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1B7EE61EDE493700917460 /* Build configuration list for PBXNativeTarget "minglingmoshi" */;
+			buildPhases = (
+				2B1B7EB21EDE493600917460 /* Sources */,
+				2B1B7EB31EDE493600917460 /* Frameworks */,
+				2B1B7EB41EDE493600917460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minglingmoshi;
+			productName = minglingmoshi;
+			productReference = 2B1B7EB61EDE493600917460 /* minglingmoshi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B1B7ED11EDE493700917460 /* minglingmoshiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1B7EE91EDE493700917460 /* Build configuration list for PBXNativeTarget "minglingmoshiTests" */;
+			buildPhases = (
+				2B1B7ECE1EDE493700917460 /* Sources */,
+				2B1B7ECF1EDE493700917460 /* Frameworks */,
+				2B1B7ED01EDE493700917460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1B7ED41EDE493700917460 /* PBXTargetDependency */,
+			);
+			name = minglingmoshiTests;
+			productName = minglingmoshiTests;
+			productReference = 2B1B7ED21EDE493700917460 /* minglingmoshiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B1B7EDC1EDE493700917460 /* minglingmoshiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1B7EEC1EDE493700917460 /* Build configuration list for PBXNativeTarget "minglingmoshiUITests" */;
+			buildPhases = (
+				2B1B7ED91EDE493700917460 /* Sources */,
+				2B1B7EDA1EDE493700917460 /* Frameworks */,
+				2B1B7EDB1EDE493700917460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1B7EDF1EDE493700917460 /* PBXTargetDependency */,
+			);
+			name = minglingmoshiUITests;
+			productName = minglingmoshiUITests;
+			productReference = 2B1B7EDD1EDE493700917460 /* minglingmoshiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B1B7EAE1EDE493600917460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wksc;
+				TargetAttributes = {
+					2B1B7EB51EDE493600917460 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RUHEZP9NQR;
+						ProvisioningStyle = Automatic;
+					};
+					2B1B7ED11EDE493700917460 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RUHEZP9NQR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B1B7EB51EDE493600917460;
+					};
+					2B1B7EDC1EDE493700917460 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RUHEZP9NQR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B1B7EB51EDE493600917460;
+					};
+				};
+			};
+			buildConfigurationList = 2B1B7EB11EDE493600917460 /* Build configuration list for PBXProject "minglingmoshi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B1B7EAD1EDE493600917460;
+			productRefGroup = 2B1B7EB71EDE493600917460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B1B7EB51EDE493600917460 /* minglingmoshi */,
+				2B1B7ED11EDE493700917460 /* minglingmoshiTests */,
+				2B1B7EDC1EDE493700917460 /* minglingmoshiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B1B7EB41EDE493600917460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1B7ECC1EDE493700917460 /* LaunchScreen.storyboard in Resources */,
+				2B1B7EC91EDE493700917460 /* Assets.xcassets in Resources */,
+				2B1B7EC41EDE493700917460 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1B7ED01EDE493700917460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1B7EDB1EDE493700917460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1B7EB21EDE493600917460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1B7F011EDE53AB00917460 /* NoCommand.m in Sources */,
+				2B1B7F091EDE589300917460 /* Stereo.m in Sources */,
+				2B1B7EC11EDE493700917460 /* ViewController.m in Sources */,
+				2B1B7EF21EDE4A4200917460 /* Light.m in Sources */,
+				2B1B7EBE1EDE493700917460 /* AppDelegate.m in Sources */,
+				2B1B7EFB1EDE4DDC00917460 /* Command.m in Sources */,
+				2B1B7F0F1EDE5A1500917460 /* StereoOffWithCDCommand.m in Sources */,
+				2B1B7EF51EDE4ABE00917460 /* LightOnCommand.m in Sources */,
+				2B1B7EF81EDE4D4D00917460 /* SimpleRomoteCotrol.m in Sources */,
+				2B1B7F0C1EDE59F100917460 /* StereoOnWIthCDCommand.m in Sources */,
+				2B1B7F051EDE57CE00917460 /* LightOffCommand.m in Sources */,
+				2B1B7EFE1EDE525B00917460 /* RemoteControl.m in Sources */,
+				2B1B7EBB1EDE493600917460 /* main.m in Sources */,
+				2B1B7EC71EDE493700917460 /* minglingmoshi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1B7ECE1EDE493700917460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1B7ED71EDE493700917460 /* minglingmoshiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B1B7ED91EDE493700917460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1B7EE21EDE493700917460 /* minglingmoshiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B1B7ED41EDE493700917460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1B7EB51EDE493600917460 /* minglingmoshi */;
+			targetProxy = 2B1B7ED31EDE493700917460 /* PBXContainerItemProxy */;
+		};
+		2B1B7EDF1EDE493700917460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B1B7EB51EDE493600917460 /* minglingmoshi */;
+			targetProxy = 2B1B7EDE1EDE493700917460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B1B7EC21EDE493700917460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1B7EC31EDE493700917460 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B1B7ECA1EDE493700917460 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1B7ECB1EDE493700917460 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B1B7EE41EDE493700917460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B1B7EE51EDE493700917460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B1B7EE71EDE493700917460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RUHEZP9NQR;
+				INFOPLIST_FILE = minglingmoshi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastedu.minglingmoshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B1B7EE81EDE493700917460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RUHEZP9NQR;
+				INFOPLIST_FILE = minglingmoshi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastedu.minglingmoshi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B1B7EEA1EDE493700917460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RUHEZP9NQR;
+				INFOPLIST_FILE = minglingmoshiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastedu.minglingmoshiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minglingmoshi.app/minglingmoshi";
+			};
+			name = Debug;
+		};
+		2B1B7EEB1EDE493700917460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RUHEZP9NQR;
+				INFOPLIST_FILE = minglingmoshiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastedu.minglingmoshiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minglingmoshi.app/minglingmoshi";
+			};
+			name = Release;
+		};
+		2B1B7EED1EDE493700917460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RUHEZP9NQR;
+				INFOPLIST_FILE = minglingmoshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastedu.minglingmoshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = minglingmoshi;
+			};
+			name = Debug;
+		};
+		2B1B7EEE1EDE493700917460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RUHEZP9NQR;
+				INFOPLIST_FILE = minglingmoshiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eastedu.minglingmoshiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = minglingmoshi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1B7EB11EDE493600917460 /* Build configuration list for PBXProject "minglingmoshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1B7EE41EDE493700917460 /* Debug */,
+				2B1B7EE51EDE493700917460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1B7EE61EDE493700917460 /* Build configuration list for PBXNativeTarget "minglingmoshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1B7EE71EDE493700917460 /* Debug */,
+				2B1B7EE81EDE493700917460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B1B7EE91EDE493700917460 /* Build configuration list for PBXNativeTarget "minglingmoshiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1B7EEA1EDE493700917460 /* Debug */,
+				2B1B7EEB1EDE493700917460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B1B7EEC1EDE493700917460 /* Build configuration list for PBXNativeTarget "minglingmoshiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1B7EED1EDE493700917460 /* Debug */,
+				2B1B7EEE1EDE493700917460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B1B7EC51EDE493700917460 /* minglingmoshi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B1B7EC61EDE493700917460 /* minglingmoshi.xcdatamodel */,
+			);
+			currentVersion = 2B1B7EC61EDE493700917460 /* minglingmoshi.xcdatamodel */;
+			path = minglingmoshi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B1B7EAE1EDE493600917460 /* Project object */;
+}
